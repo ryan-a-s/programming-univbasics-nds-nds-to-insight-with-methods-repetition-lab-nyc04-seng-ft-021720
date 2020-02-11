@@ -38,7 +38,6 @@ end
 def total_gross(source)
   # Write this implementation
   #
-  puts directors_totals(source)
   index = 0
   total = 0
   while index < source.length do
