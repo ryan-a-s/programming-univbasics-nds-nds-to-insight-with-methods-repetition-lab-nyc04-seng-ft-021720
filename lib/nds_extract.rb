@@ -40,8 +40,12 @@ def total_gross(source)
   #
   puts directors_totals(source)
   index = 0
-  result = {}
   total = 0
+  while index < source.length do
+    total += directors_totals(source).values[index]
+    index +=1
+  end
+  total
 #  while index < source.length do
 
 #  end
